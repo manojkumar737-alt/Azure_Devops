@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Manoj Kumar | Lead SRE</title>
+
+<style>
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #1e3a8a, #0f172a);
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 95%;
+  max-width: 1200px;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(8px);
+  border-radius: 20px;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+}
+
+.header {
+  grid-column: span 2;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 42px;
+}
+
+.header p {
+  margin-top: 8px;
+  font-size: 18px;
+  color: #cbd5e1;
+}
+
+.card {
+  background: rgba(255,255,255,0.08);
+  padding: 20px;
+  border-radius: 15px;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background: rgba(255,255,255,0.12);
+}
+
+.card h2 {
+  margin-bottom: 10px;
+  color: #38bdf8;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag {
+  background: #38bdf8;
+  color: black;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.contact p {
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.footer {
+  grid-column: span 2;
+  text-align: center;
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+@media(max-width: 900px) {
+  .container {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="header">
+<h1>Manoj Kumar</h1>
+<p>Lead SRE | DevOps | DevSecOps | MLOps | AIOps | DevFinOps</p>
+</div>
+
+<div class="card">
+<h2>👋 About Me</h2>
+<p>
+Lead Site Reliability Engineer with 13+ years experience in Application Support,
+Cloud Infrastructure, DevOps automation and enterprise monitoring solutions.
+Expert in scalable infrastructure using Terraform, Kubernetes, Docker, AWS,
+Azure and CI/CD platforms.
+</p>
+</div>
+
+<div class="card">
+<h2>🚀 Skills</h2>
+<div class="skills">
+<span class="tag">AWS</span>
+<span class="tag">Azure</span>
+<span class="tag">Terraform</span>
+<span class="tag">Docker</span>
+<span class="tag">Kubernetes</span>
+<span class="tag">Grafana</span>
+<span class="tag">Prometheus</span>
+<span class="tag">CI/CD</span>
+<span class="tag">DevSecOps</span>
+<span class="tag">MLOps</span>
+<span class="tag">AIOps</span>
+<span class="tag">DevFinOps</span>
+</div>
+</div>
+
+<div class="card">
+<h2>💼 Experience</h2>
+<p>
+Currently working as Lead SRE at Accenture delivering cloud migration,
+production reliability engineering, observability platforms and automation
+solutions for enterprise-scale applications.
+</p>
+</div>
+
+<div class="card contact">
+<h2>📫 Contact</h2>
+<p>Email: manoj.mlops@gmail.com</p>
+<p>LinkedIn: linkedin.com/in/manojkumar030592</p>
+<p>GitHub: github.com/manojkumar737-alt</p>
+</div>
+
+<div class="footer">
+© 2026 Manoj Kumar | Cloud Hosted Profile 🚀
+</div>
+
+</div>
+
+</body>
+</html>

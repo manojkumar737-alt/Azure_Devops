@@ -1,0 +1,5 @@
+mk_rg1      = "rg1_name_config"
+mk_rg2      = "rg2_name_config"
+mk_rg3      = "rg3_name_config"
+mk_rg4      = "rg4_name_config"
+rg_location = "West Europe"
