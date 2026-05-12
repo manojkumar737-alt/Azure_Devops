@@ -27,7 +27,7 @@ pipeline {
         stage('Terraform Plan') {
             steps {
                 dir('terraform_devsecops_lob') {
-                    sh 'terraform plan'
+                    sh 'terraform plan -var-file="variables.tfvars" -out=tfplan'
                 }
             }
         }
@@ -35,7 +35,7 @@ pipeline {
         stage('Terraform Apply') {
             steps {
                 dir('terraform_devsecops_lob') {
-                    sh 'terraform apply -auto-approve'
+                    sh 'terraform apply -var-file="variables.tfvars" -auto-approve'
                 }
             }
         }
